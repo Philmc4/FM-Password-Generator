@@ -30,7 +30,6 @@ function App() {
     { field: passwordValues.number, getChar: () => getRandomChar(48, 57) },
     { field: passwordValues.symbol, getChar: () => getSpecialChar() },
   ];
-  console.log(passwordFields);
 
   function handlePasswordValueChange(initialValues) {
     const [passwordValues, setPasswordValues] = useState(initialValues);
