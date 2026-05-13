@@ -53,7 +53,6 @@ function App() {
 
     for (let i = 0; i < passwordValues.length; i++) {
       const index = Math.floor(Math.random() * checkedFields.length);
-      console.log(checkedFields.length);
       setPasswordStrength(checkedFields.length);
       const letter = checkedFields[index]?.getChar();
 
