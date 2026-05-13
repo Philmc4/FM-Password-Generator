@@ -5,7 +5,7 @@ import { useState } from "react";
 import CopiedIcon from "./assets/images/icon-copy.svg";
 import Checkbox from "./Components/Checkbox";
 import { MdArrowForward } from "react-icons/md";
-import { getSpecialChar, getRandomChar } from "./Components/Utils";
+import { getSpecialChar, getRandomChar } from "./Utils";
 import TooWeak from "./Components/PasswordStrengths/TooWeak";
 import Weak from "./Components/PasswordStrengths/Weak";
 import Medium from "./Components/PasswordStrengths/Medium";
